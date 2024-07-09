@@ -83,3 +83,63 @@ header button{
     margin-top: 20px;
 }
 /* banner-section-container styles ends here */
+/* why web development section styles starts here */
+.web-development-section{
+    box-sizing: border-box;
+    max-width: 1440px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 80px;   
+}
+.container h1{
+    font-size: 32px;
+    color: #0D1321;
+}
+.container p{
+    font-size: 16;
+    margin-top: 20px;
+    font-weight: normal;
+    color: #555A63;
+}
+.world-coding-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    height: 336px;
+    gap: 200px;
+    
+}
+.coding-one-title{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #555A63;
+    
+}
+.coding-one-description{
+    color: #555A63;
+    font-size: 16;
+}
+.coding-one-button{
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #555A63;
+    
+}
+
+
+
+
+
+
+
+/* why web development section styles end here */
