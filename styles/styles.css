@@ -157,7 +157,6 @@ header button{
     text-align: justify;
   
 }
-
 .coding-two-description{
     display: flex;
     font-size: 16px;
@@ -219,7 +218,6 @@ header button{
     text-align: center;
     margin-top: 80px;
     background-color: white;
-    gap: 50px; 
 }
 .my-inspiration-section h1{
     font-size: 32px;
@@ -232,15 +230,126 @@ header button{
     color: #555A63;
 }
 .video{
-    margin-top: 50px;
+    margin-top: 60px;
     box-sizing: border-box;
     
 }
-
-
-
-
-
-
-
 /* my-inspiration-section styles end here */
+
+/* my-current-target styles starts here */
+.my-current-target{
+    box-sizing: border-box;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: white;
+    
+}
+.my-current-target h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.my-current-target p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #555A63;
+}
+.target-container{
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
+.html-container{
+    height: 300px;
+    background-color: #FFF6F4; 
+    max-width: 33%;  
+}
+.css-container{
+    height: 300px;
+    background-color: #F2F6FE;
+    max-width: 33%;  
+}
+.java-container{
+    height: 300px;
+    max-width: 33%;
+    background-color: #FFFDF2;
+}
+.html-img{
+    margin-top: 30px;
+    margin-right: 300px;
+}
+.html-title{
+    margin-right: 280px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.html-description{
+    margin-right: 50px;
+    display: flex;
+    font-size: 16px;
+    margin-left: 55px;
+    text-align: justify; 
+}
+.html-container button{
+    border: none;
+    background-color: #fefefe;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 255px;
+}
+.css-img{
+    margin-top: 30px;
+    margin-right: 300px; 
+}
+.css-title{
+    margin-right: 285px;
+    margin-top: 10px ;
+    font-size: 24px;
+    
+}
+.css-description{
+    margin-right: 50px;
+    display: flex;
+    font-size: 16px;
+    margin-left: 60px;
+    text-align: justify; 
+}
+.css-container button{
+    border: none;
+    background-color: #fefefe;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 255px;
+}
+.java-img{
+    margin-top: 30px;
+    margin-right: 300px; 
+}
+.java-title{
+    margin-right: 215px;
+    margin-top: 10px ;
+    font-size: 24px;
+}
+.java-description{
+    margin-right: 50px;
+    display: flex;
+    font-size: 16px;
+    margin-left: 40px;
+    text-align: justify; 
+}
+.java-container button{
+    border: none;
+    background-color: #fefefe;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 270px;
+}
+/* my-current-target styles end here */
