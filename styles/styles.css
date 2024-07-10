@@ -477,3 +477,59 @@ header button{
    margin-right: 820px;
 } 
 /*my-next-target style end here */
+
+/* i-need-support style starts here */
+.i-need-support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 400px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    
+}
+.i-need-support h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+}
+.i-need-support p{
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 25px;
+}
+.input-text{
+    height: 55px;
+    width: 548px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.i-need-support button{
+    padding: 14px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #F7F8F8;
+
+}
+/* i-need-support style end here */
