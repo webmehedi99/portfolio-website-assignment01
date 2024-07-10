@@ -95,7 +95,7 @@ header button{
     text-align: center;
     margin-top: 80px;
     border: 2px solid red; 
-    box-shadow: #012568;  
+    background-color: #FAFAFB;
 }
 .container h1{
     font-size: 32px;
@@ -113,10 +113,8 @@ header button{
     align-items: center;
     margin-top: 60px;
     height: 336px;
-    gap: 200px;
-    border: 2px solid green;
-    box-shadow: 2px ;
-    
+    /* gap: 200px; */
+    background-color: #fefefe;
 }
 .coding-one-title{
     font-size: 24px;
@@ -141,6 +139,101 @@ header button{
     color: #555A63;
     text-align: justify;
     margin-right: 188px;
+    /* background-color: #fefefe;
+    border: 1 solid #555A63 ; */    
+}
+.world-coding-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 336px;
+    margin-top: 30px;
+    background-color: #fefefe;
+}
+.world-coding-two h1{
+    font-size: 24px;
+    display: flex;
+    font-weight: bold;
+    color: #555A63;
+    text-align: justify;
+  
+}
+.coding-two-description{
+    display: flex;
+    font-size: 16px;
+    text-align: justify;
+}
+.world-coding-two button{
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #555A63;
+    text-align: justify;
+    margin-right: 270px;
+}
+.world-coding-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 336px;
+    margin-top: 30px;
+    background-color: #fefefe;
+}
+.world-coding-three h1{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555A63;
+    text-align: justify;
+}
+.coding-three-description{
+    display: flex;
+    font-size: 16px;
+    text-align: justify;
+}
+.world-coding-three button{
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #555A63;
+    text-align: center;
+    margin-right: 187px;
+
+}
+
+/* why web development section styles end here */
+
+
+/* my-inspiration-section styles starts here */
+.my-inspiration-section{
+    box-sizing: border-box;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: white;
+    gap: 50px; 
+}
+.my-inspiration-section h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.my-inspiration-section p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #555A63;
+}
+.video{
+    margin-top: 50px;
+    box-sizing: border-box;
     
 }
 
@@ -150,4 +243,4 @@ header button{
 
 
 
-/* why web development section styles end here */
+/* my-inspiration-section styles end here */
