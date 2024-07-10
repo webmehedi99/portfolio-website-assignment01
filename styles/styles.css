@@ -94,7 +94,6 @@ header button{
     margin-right: 250px;
     text-align: center;
     margin-top: 80px;
-    border: 2px solid red; 
     background-color: #FAFAFB;
 }
 .container h1{
@@ -158,6 +157,7 @@ header button{
     text-align: justify;
   
 }
+
 .coding-two-description{
     display: flex;
     font-size: 16px;
