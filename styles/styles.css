@@ -353,3 +353,127 @@ header button{
     margin-right: 270px;
 }
 /* my-current-target styles end here */
+
+/* my-next-target style starts here */
+.my-next-target{
+    box-sizing: border-box;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: white; 
+}
+.my-next-target h1{
+    font-size: 32px;
+    font-weight: bolder
+}
+.my-next-target p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #555A63;
+}
+.my-next-target-reactjs{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    height: 250px;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+}
+.reactjs-img{
+    max-width: 150px;
+   margin-left: 250px;
+}
+.my-next-target-reactjs .reactjs-title{
+    font-size: 24px;
+    margin-right: 800px;
+
+}
+.my-next-target-reactjs .reactjs-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 100px;
+    color: #555A63;
+}
+.my-next-target-reactjs button{
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+   border: none;
+   background-color: #fefefe;
+   margin-top: 20px;
+   margin-right: 840px;
+}
+.my-next-target-nodejs{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    height: 250px;
+    border: 2px ;
+    box-shadow: 0px 0px 2px; 
+    border-radius: 5px;
+}
+.nodejs-img{
+    max-width: 150px;
+   margin-left: 250px;
+}
+.my-next-target-nodejs .nodejs-title{
+    font-size: 24px;
+    margin-right: 800px; 
+}
+.my-next-target-nodejs .nodejs-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: #555A63;
+}
+.my-next-target-nodejs button{
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+   border: none;
+   background-color: #fefefe;
+   margin-top: 20px;
+   margin-right: 820px;
+} 
+.my-next-target-mongodb{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    height: 250px;
+    border: 2px;
+    box-shadow: 0px 0px 2px; 
+    border-radius: 5px; 
+}
+.mongodb-img{
+   max-width: 150px;
+   margin-left: 250px;
+}
+.my-next-target-mongodb .mongodb-title{
+    font-size: 24px;
+    margin-right: 800px; 
+}
+.my-next-target-mongodb .mongodb-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 120px;
+    color: #555A63;
+}
+.my-next-target-mongodb button{
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+   border: none;
+   background-color: #fefefe;
+   margin-top: 20px;
+   margin-right: 820px;
+} 
+/*my-next-target style end here */
