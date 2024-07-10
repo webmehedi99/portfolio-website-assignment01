@@ -93,7 +93,9 @@ header button{
     margin-left: 250px;
     margin-right: 250px;
     text-align: center;
-    margin-top: 80px;   
+    margin-top: 80px;
+    border: 2px solid red; 
+    box-shadow: #012568;  
 }
 .container h1{
     font-size: 32px;
@@ -112,6 +114,8 @@ header button{
     margin-top: 60px;
     height: 336px;
     gap: 200px;
+    border: 2px solid green;
+    box-shadow: 2px ;
     
 }
 .coding-one-title{
@@ -120,11 +124,13 @@ header button{
     flex-direction: column;
     font-weight: bold;
     color: #555A63;
+    text-align: justify;
     
 }
 .coding-one-description{
     color: #555A63;
     font-size: 16;
+    text-align: justify;
 }
 .coding-one-button{
     padding: 12px 20px;
@@ -133,6 +139,8 @@ header button{
     margin-top: 20px;
     font-weight: 600;
     color: #555A63;
+    text-align: justify;
+    margin-right: 188px;
     
 }
 
